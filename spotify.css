@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+ul li{
+    padding: 0 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    flex-direction:row;
+    background-color: black;
+    color:white;
+    align-items: center;
+    
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    align-items: center;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   border-color: blueviolet;
+   padding: 34px;
+   background-image: url('bg.jpg');
+   background-position: 50%;
+}
+
+.songs{
+    width: 10px;
+} 
+.timestamp{
+    margin: 0 23px ;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songsItemContainer{
+    margin: 50px 0;
+}
+.songsItem{
+    background-color: aliceblue;
+    color: black;
+    font-size: 13px;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 35px;
+}
+.songsItem img{
+    border-radius: 40px;
+    width: 35px;
+    margin: 0px 20px;
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 34px 0;
+    font-size: 50px;
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 89vw;
+    cursor: pointer;
+}
+.songsInfo{
+    position: absolute;
+    left: 10vw; 
+    font-family: 'Varela Round', sans-serif;
+}
+.songsInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in ;
+}
+.songList{
+    height: 20px;
+}
+.content{
+    color: red;
+}
+.myclass{
+    color: blueviolet;
+}
